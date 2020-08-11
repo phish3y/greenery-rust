@@ -1,0 +1,4 @@
+curl -H "Content-Type: application/json" -X POST -d '{"greenery_id": "charmander-fire", "name": "Evans torch", "phone": "419-310-4461", "email": "char@poke.com", "address": "Azalea Johto"}' http://localhost:5000/createGeneral
+curl -H "Content-Type: application/json" -X POST -d '{"greenery_id": "charmander-fire"}' http://localhost:5000/readGeneral
+
+
