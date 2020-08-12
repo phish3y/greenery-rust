@@ -24,8 +24,8 @@ struct GeneralInfo {
 
 async fn get_bucket(bucket: &str) -> Result<Bucket> {
     //let credentials: Credentials = match Credentials::default().await {
-    let credentials: Credentials = match Credentials::new(Some("AKIAVYEQVH2QHNTU7I6O"), 
-                                                          Some("2wOHmVtUflLCckmZVdNrWuGD/UnhWU6pwHi1Lzm4"), 
+    let credentials: Credentials = match Credentials::new(Some(""), 
+                                                          Some(""), 
                                                           None, None, None).await {
         Ok(credentials) => credentials,
         Err(e) => {
